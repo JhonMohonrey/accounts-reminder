@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.div {
+    border: 5px solid black;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 400px;
+
+    h1 {
+        font-family: arial;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .count {
+        width: 50px;
+        height: 50px;
+        background: black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 5px auto;
+
+        span {
+            font-family: arial;
+            color: white;
+            font-size: 40px;
+        }
+    }
+
+    .container {    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        margin: 0 auto;
+
+        label {
+            font-family: arial;
+            font-weight: bold;
+            margin: 2px 0;
+        }
+    
+        input {
+            border: 2px solid black;
+            height: 25px;
+            width: 95%;
+            margin: 5px 0;
+        }
+
+        button {
+            padding: 5px 15px;
+            border-radius: 10px;
+            border: none;
+            background: black;
+            margin-top: 8px;
+            color: white;
+            margin-bottom: 20px;
+
+            &:active {
+                background: rgba(0, 0, 0, 0.704);
+            }
+        }
+    }
+
+    .buttons {
+        width: 90%;
+        margin: 5px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 2px solid black;
+
+        button {
+            padding: 10px 15px;
+            border: none;
+            background: black;
+            border-radius: 10px;
+            margin: 5px 20px;
+            color: white;
+            font-family: arial;
+
+            &:active {
+                background: rgba(0, 0, 0, 0.703);
+            }
+        }
+    }
+}
+
+.hide {
+    visibility: hidden;
+    display: none;
+}
+
+.change_accounts {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+    .prev, .next {
+        padding: 10px 25px;
+        font-size: 30px;
+        margin: 10px 20px;
+        background: black;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+
+        &:active {
+            background: rgba(0, 0, 0, 0.728);
+        }
+    }
+}
+
+.textTest {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

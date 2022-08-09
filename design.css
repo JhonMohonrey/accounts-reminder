@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.div {
+  border: 5px solid black;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 400px;
+}
+
+.div h1 {
+  font-family: arial;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.div .count {
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin: 5px auto;
+}
+
+.div .count span {
+  font-family: arial;
+  color: white;
+  font-size: 40px;
+}
+
+.div .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.div .container label {
+  font-family: arial;
+  font-weight: bold;
+  margin: 2px 0;
+}
+
+.div .container input {
+  border: 2px solid black;
+  height: 25px;
+  width: 95%;
+  margin: 5px 0;
+}
+
+.div .container button {
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  background: black;
+  margin-top: 8px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.div .container button:active {
+  background: rgba(0, 0, 0, 0.704);
+}
+
+.div .buttons {
+  width: 90%;
+  margin: 5px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top: 2px solid black;
+}
+
+.div .buttons button {
+  padding: 10px 15px;
+  border: none;
+  background: black;
+  border-radius: 10px;
+  margin: 5px 20px;
+  color: white;
+  font-family: arial;
+}
+
+.div .buttons button:active {
+  background: rgba(0, 0, 0, 0.703);
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}
+
+.change_accounts {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.change_accounts .prev, .change_accounts .next {
+  padding: 10px 25px;
+  font-size: 30px;
+  margin: 10px 20px;
+  background: black;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.change_accounts .prev:active, .change_accounts .next:active {
+  background: rgba(0, 0, 0, 0.728);
+}
+
+.textTest {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=design.css.map */
